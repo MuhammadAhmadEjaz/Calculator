@@ -14,10 +14,8 @@
     <table class="calculator">
         <tr id="display-outer">
             <td colspan="5"> <input class="display-box" type="text" id="result" disabled /> </td>
-            <!-- clearScreen() function clears all the values -->
         </tr>
         <tr>
-            <!-- display() function displays the value of clicked button -->
             <td> <input type="button" value="7" class="number-btn" onclick="display('7')" /> </td>
             <td> <input type="button" value="8" class="number-btn" onclick="display('8')" /> </td>
             <td> <input type="button" value="9" class="number-btn" onclick="display('9')" /> </td>
@@ -41,7 +39,6 @@
         <tr>
             <td colspan="2"> <input type="button" value="0" class="number-btn" onclick="display('0')" /> </td>
             <td> <input type="button" value="." class="operator-btn" onclick="display('.')" /> </td>
-            <!-- calculate() function evaluates the mathematical expression -->
             <td colspan="2"> <input type="button" value="Enter" class="operator-btn" onclick="calculate()" id="btn" /> </td>
         </tr>
     </table>
